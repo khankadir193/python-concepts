@@ -33,3 +33,35 @@ print(x+y);
 x = 5;
 y = 'abdul kadir khan';
 print(x,y);# this will give the error x+y unsupported error.
+
+#typeof operator
+a=9;
+b=4;
+print('performing arithmetic operation...')
+add = a+b;
+sub = a-b;
+mult = a*b;
+div = a/b;
+mod = a%b;
+pow = a**b;
+
+print(add);
+print(sub);
+print(mult);
+print(div);
+print(mod);
+print(pow);
+
+#comprison operator
+a=4;
+b=3;
+print('comprison operator');
+
+print(a>b);
+print(a<b);
+print(a==b);
+print(a!=b);
+print(a>=b);
+print(a<=b);
+
+#logical && operator
