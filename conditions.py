@@ -12,4 +12,24 @@ print('x',x,'y',y,'z',z);
 # a variable.
 
 arr = [23,54,53,68];
+a,b,c,d = arr;
+print('a:',a,'b:',b,'c:',c,'d:',d);
 
+#print() function is often used to output variables.
+x = "Python is awesome";
+print(x)
+#OR
+x = "Python"
+y = "is"
+z = "awesome"
+print(x+y+z);
+
+#mathmatical operation
+x = 10;
+y = 5;
+print(x+y);
+
+#if we add num and string in that will give error.
+x = 5;
+y = 'abdul kadir khan';
+print(x,y);# this will give the error x+y unsupported error.
