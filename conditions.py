@@ -107,3 +107,46 @@ while i<5:
     print(i,end=' ');
     i = i+1;
 
+#python data structure
+#python offers built in data structures lists,tuplse,sets, and dictionaries etc.
+#that allows store data in efficient way...
+#list can mutable(that means we change the list after created.),using square bracket []
+print('\n')
+arr = [12,10,25,71];
+#accessing data from particular index..
+print('arr:-',arr[1]);
+#modifying list
+arr.append(25);
+print('after adding elements...::',arr);
+#sum of the total elements..
+sum_nums = sum(arr);
+print('totalSum.:-',sum_nums);
+
+#tuples
+#tuples are immutable we can not change once is created.
+#they are using openbracket ().
+#create tuple
+point = (3,4);
+x,y = point;
+print('x,y',x,y);
+
+#sets
+#sets are unorder collections of elements mutable diff type of elements.
+#sets can not contain duplicate elemetns..
+#they are simplified using curlybraces.
+#create set
+set = {1,2,3,10,3,1};
+print('set..',set);
+
+#Dictionaries
+#dict containing element in key-value pair.
+#dict can user curly braces
+#dict are mutable
+#we can access element with help of  key.
+person =  {'name':'Abdul Kadir Khan','age':21,'gender':'male',
+           'address':'gorakhpur'};
+
+print('dict(object)',person);
+print('accessing value',person['name']);
+person['name']= "Abdul jabir Khan";
+print('modifying ele:-',person);
