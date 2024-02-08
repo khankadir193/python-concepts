@@ -150,3 +150,21 @@ print('dict(object)',person);
 print('accessing value',person['name']);
 person['name']= "Abdul jabir Khan";
 print('modifying ele:-',person);
+
+#lambda function:
+#A lambda function is a small anonymous function that can take any number of the arg
+#but can only have a one expression.
+add = lambda num:num+4;
+sub = lambda num:num-4;
+mul = lambda num:num*4;
+div = lambda num:num/4;
+mod = lambda num:num%4;
+def addition(num):
+    return num+4;
+
+print('add:',add(6));
+print('sub:',sub(6));
+print('mul:',mul(6));
+print('div:',div(6));
+print('mod:',mod(6));
+print('addNormalFunction:-',addition(4));
