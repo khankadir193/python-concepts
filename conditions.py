@@ -65,3 +65,45 @@ print(a>=b);
 print(a<=b);
 
 #logical && operator
+a = 6;
+b = 5;
+c = 4;
+#And operator practice
+if(a>b and b>c):
+    print('a greater than b and b greater than c');
+#Or operatror practice.
+if(b>a or b>c):
+    print('b not greater than a or b greater than c');
+
+#logical not operator  
+a = 10;
+if not a:
+    print('a is true..');
+if not (a%3 or a%5):
+    print('10 is not divisible by 3 or 5');
+else:
+    print('10 is divisible by either 3 or 5');
+
+#order of precedence of logical operator.
+def order(x):
+    print('method has been called..',x);
+    return True if x>0 else False;
+
+a = order;
+b = order;
+c = order;
+
+if a(-1) or b(-10) or c(2):
+    print('Atleast one method should be positive...');
+
+#for loop
+fruits = ['apple','mango','onion'];
+for x in fruits:
+    print(x,end=' ');
+
+#while loop
+i=0;
+while i<5:
+    print(i,end=' ');
+    i = i+1;
+
