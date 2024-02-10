@@ -101,7 +101,7 @@ fruits = ['apple','mango','onion'];
 for x in fruits:
     print(x,end=' ');
 
-#while loop
+#while loop-:while loop is used for execute the code repetedly. 
 i=0;
 while i<5:
     print(i,end=' ');
@@ -168,3 +168,34 @@ print('mul:',mul(6));
 print('div:',div(6));
 print('mod:',mod(6));
 print('addNormalFunction:-',addition(4));
+
+#break statements-: break statements is used for abort current execution of code.
+my_list = [1,2,3,4,5,6,7];
+count = 0;
+for item in my_list:
+    if item == 4:
+        print('item has been matched..?');
+        count += item;
+        break;
+
+print('item found..?',count);
+
+#break statements using with character
+my_str = "python";
+charCount = 1;
+for char in my_str:
+    if char == 'o':
+        print('character has been matched..');
+        charCount += item;
+        break;
+
+print('charIndex...',charCount);
+
+#continue:- countinue statements is used for skip the for particular code.
+
+for it in range(1,20):
+    if it == 4:
+        continue;
+    elif it == 5:
+        continue
+    print('iterator...',it);
