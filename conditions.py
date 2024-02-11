@@ -199,3 +199,15 @@ for it in range(1,20):
     elif it == 5:
         continue
     print('iterator...',it);
+
+#python string concepts.
+#using single quotes
+str1 = 'hi abdul jabir khan';
+print('str1...',str1);
+#using double quotes
+str2 = "Hi abdul kadir khan";
+print("str2",str2);
+#using triple quotes:- triple quotes generally used for represent the multiline
+#or doc string.
+str3 = "'hi rehan khan'";
+print("'str3..'",str3);
