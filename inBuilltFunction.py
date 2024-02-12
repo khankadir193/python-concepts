@@ -61,3 +61,20 @@ print(any(x));
 
 x = [0,False,2];
 print(any(x));
+
+#eval function:
+x = 8;
+print(eval('x+1'));
+
+#float:- the float point decimal number
+x = 14;
+print(float(x));
+x=10.454;
+print(float(x));
+
+#format function:-return the formatted representation of given value.
+print(format(123,'d'));
+
+print(format(1234.4532,'f'));
+
+print(format(10,'b'));
